@@ -1,0 +1,121 @@
+#bdy{
+    background-color: #ffeedd;
+}
+
+#header-name{
+    font-family: 'Montez', cursive;
+    font-size: xx-large;
+    color:blue;
+    padding: 10px 0px 5px 3px;
+    margin: 0px;
+}
+
+.sign-Info{
+    position:absolute; 
+    top:10px; 
+    right:5px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    flex-flow: wrap;
+    justify-content:space-around;
+    align-content: space-around;
+
+}
+
+.post{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  padding: 0%;
+  border-radius: 5px;
+  transition: 0.3s;
+  height: 10%;
+  margin:30px;
+  width: 45%;
+
+}
+.name{
+    background-color: white;
+    color: grey;
+    border-radius: 5px; 
+    padding:2%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.comment{
+    /* background-color: lightgray; */
+    color:grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.post:hover{
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5); */
+    box-shadow: 5px 10px 8px 10px #b67777;
+    /* cursor: pointer; */
+  }
+.trash{
+    padding:5px;
+    cursor: pointer;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position:relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 25%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /*15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%; /* Could be more or less, depending on screen size */
+  }
+
+  #MyModalContent4{
+    width: 25%;
+  }
+
+  .del-btn{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-flow: nowrap;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .he{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  .he:hover{
+    cursor: pointer;
+  }
