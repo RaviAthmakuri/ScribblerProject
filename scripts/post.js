@@ -23,7 +23,7 @@ edit.onclick = function(){
     var editpara = document.getElementById("editPara");
     // var edittitle = document.getElementById("title");
     if(edit.getAttribute("id")== "edit"){
-     edit.innerHTML = 'Save <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>';
+     edit.innerHTML = 'Save <span><i class="fa fa-floppy-o" aria-hidden="true"></i></span>';
      edit.setAttribute("id","save");
 
     //  console.log(para);
@@ -31,7 +31,7 @@ edit.onclick = function(){
      editpara.innerHTML = '<textarea class="form-control" id="paratext" rows="5"  cols="50" required style="margin-bottom:10px">'+para.innerHTML+'</textarea>';
 
     }else{
-        console.log("check");
+        // console.log("check");
         // var check = getElementById("paratext");
         var titletext =document.getElementsByTagName("textarea")[0];
         var textPara = document.getElementsByTagName("textarea")[1];
