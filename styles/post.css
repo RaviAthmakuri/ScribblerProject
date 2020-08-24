@@ -1,0 +1,85 @@
+#header-name{
+    font-family: 'Montez', cursive;
+    font-size: xx-large;
+    color:blue;
+    padding: 10px 0px 5px 3px;
+    margin: 0px;
+}
+
+.sign-Info{
+    position:absolute; 
+    top:10px; 
+    right:5px;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    padding:25px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-flow: nowrap;
+}
+
+.inputComments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#like-btn{
+    margin-bottom: 10px;
+}
+
+#comment-btn{
+    margin-top: 10px;
+}
+
+#edit{
+    margin-bottom:10px;
+}
+
+#save{
+    margin-bottom:10px;
+}
+
+#main{
+    width: 100%;
+}
+
+.paratext{
+    margin-bottom: 10px;
+}
+#like-comment{
+    color:grey;
+}
+/* #user-actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-flow: nowrap;
+} */
+
+.In-comments{
+    border-style: solid;
+    border-color: rgba(0,0,0,0.4);
+    width: 100%;
+    border-width: 8px;
+    margin:0px;
+    
+}
+#comment-1{
+    margin-top:10px;
+}

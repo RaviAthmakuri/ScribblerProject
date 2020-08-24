@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/post.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <label id="header-name">ScriBBler</label>
+            <h6>Explore, Imagine, Create</h6>
+
+            <div class="sign-Info">
+                <button type="button" id="btn-sign-up" class="btn btn-primary">Sign Up</button>
+                <button type="button" id="btn-sign-in" class="btn btn-primary">Sign In</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="post" id="post1">
+
+        <div id="main">
+            <div class="comment">
+                <h4 id="title"></h4>
+            </div>
+            <div class="name">
+                <p id="owner"></p>
+                <button type="button" class="btn btn-danger" id="edit"> Edit
+                    <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                    </span></button>
+            </div>
+
+            <div id="editPara">
+                <p id="p"></p>
+            </div>
+
+
+            <div class="inputComments">
+
+                <div>
+                    <button type="button" class="btn btn-danger" id="like-btn"> Like
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                    </button>
+                    <p id="like-comment">Be the first one to like this!</p>
+                </div>
+
+                <textarea class="form-control" id="comment" rows="5" placeholder="Leave a comment" required></textarea>
+
+                <button type="button" class="btn btn-danger" id="comment-btn">Comment</button>
+            </div>
+
+
+            <div id="commentSection">
+                <!-- <label class="In-comments"> Super Mama</label> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../scripts/post.js"></script>
+</body>
+
+</html>
